@@ -1,0 +1,33 @@
+.button {
+  border: solid 1px gray;
+  width: 50%;
+  margin: 0 auto;
+  height: 3rem;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.button div {
+  /* background: green; */
+  width: 4rem;
+  height: 2.5rem;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s ease;
+}
+
+.light {
+  border: solid 1px gray;
+  transform: translateX(.3rem);
+}
+
+.dark {
+  border: none;
+  background: #023436;
+  transform: translateX(7.3rem);
+  color: white;
+}
