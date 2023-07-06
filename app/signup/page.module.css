@@ -22,8 +22,8 @@
 }
 
 .text p {
-  font-size: .91rem;
-  margin-top: .5rem;
+  font-size: 0.91rem;
+  margin-top: 0.5rem;
 }
 
 .loader {
@@ -46,15 +46,53 @@
   align-items: center;
   font-size: 1rem;
   padding: 0 1.5rem;
-} 
+}
 
 .footer p {
   cursor: pointer;
 }
 
- /* should depend on what the person has selected  */
-.btn {
-  /* background: white; */
+.modal {
+  position: absolute;
+  transform: translateX(.25rem);
+  /* border: solid gray 1px; */
+  right: 4rem;
+  /* border-radius: 26px; */
+  width: 60px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.9rem;
+  bottom: 1.1rem;
+  border-radius: 16px;
+  animation: bounce 4 1.3s;
+  opacity: 0;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateX(.2rem);
+  }
+  50% {
+    transform: translateX(0.7rem);
+    opacity: 1;
+    /* background: green; */
+  }
+  100% {
+    transform: translateX(.2rem);
+  }
+}
+
+@keyframes liquid {
+  0% {
+
+}
+}
+
+/* should depend on what the person has selected  */
+.darkBtn {
+  background: white;
   /* box-shadow: 1px 1px 1px 1px orangered; */
   width: 2.5rem;
   display: flex;
@@ -62,6 +100,22 @@
   cursor: pointer;
   align-items: center;
   height: 2.5rem;
+  color: black;
+  border-radius: 50%;
+  font-size: 1.5rem;
+} 
+
+.btn {
+  /* background: #023434; */
+  /* border: solid red; */
+  /* box-shadow: 1px 1px 1px 1px orangered; */
+  width: 2.5rem;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  align-items: center;
+  height: 2.5rem;
+  color: black;
   border-radius: 50%;
   font-size: 1.5rem;
 }

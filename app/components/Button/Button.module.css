@@ -7,6 +7,7 @@
   display: flex;
   align-items: center;
   cursor: pointer;
+  position: relative;
 }
 
 .button div {
@@ -17,6 +18,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  position: absolute;
   transition: 0.4s ease;
 }
 
@@ -27,7 +29,7 @@
 
 .dark {
   border: none;
-  background: #023436;
+  background: #101719;
   transform: translateX(7.3rem);
   color: white;
 }

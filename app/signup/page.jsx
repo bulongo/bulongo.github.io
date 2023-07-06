@@ -28,7 +28,8 @@ const signup = () => {
       <span className={styles.loader}>oOOo</span>
       <div className={styles.footer}>
         <p onClick={() => skip()}>Skip</p>
-        <div className={styles.btn} onClick={() => nextBtn}>&#8594;</div>
+        <p className={styles.modal}>next</p>
+        <div className={darkModeState ? styles.darkBtn : styles.btn} onClick={() => nextBtn()}>&#8594;</div>
       </div>
     </div>
   )
