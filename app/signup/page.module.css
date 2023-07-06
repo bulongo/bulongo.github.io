@@ -103,10 +103,11 @@
   color: black;
   border-radius: 50%;
   font-size: 1.5rem;
+  transition: 0.2s ease;
 } 
 
 .btn {
-  /* background: #023434; */
+  background: linear-gradient(to top right,orangered,#E1AD01);
   /* border: solid red; */
   /* box-shadow: 1px 1px 1px 1px orangered; */
   width: 2.5rem;
@@ -115,7 +116,8 @@
   cursor: pointer;
   align-items: center;
   height: 2.5rem;
-  color: black;
+  color: white;
   border-radius: 50%;
   font-size: 1.5rem;
+  transition: 0.2s ease;
 }

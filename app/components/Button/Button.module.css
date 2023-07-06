@@ -29,7 +29,7 @@
 
 .dark {
   border: none;
-  background: #101719;
+  /* background: #101719; */
   transform: translateX(7.3rem);
   color: white;
 }
