@@ -1,0 +1,10 @@
+.darkModeOn {
+  background: #023434;
+  height: 100vh;
+  transition: 0.7s ease;
+}
+
+.darkModeOff {
+  height: 100vh;
+  transition: 0.7s ease;
+}

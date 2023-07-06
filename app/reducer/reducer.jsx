@@ -1,8 +1,15 @@
-import { useReducer } from "react";
-
-
-export const darkModeState = {
-  darkMode:'off' ,
+export const darkModeReducer = (state,action) => {
+  switch (action.type){
+    case 'turnOnDarkMode':
+      return {darkMode:'on'}
+    case 'turnOffDarkMode':
+      return {darkMode:'off'}
+    default:
+      return state
+  }
 }
 
-const [state,dispatch] = useReducer(reducer,darkModeState)
+export const darkModeState = {
+  darkMode:'off'
+}
+
