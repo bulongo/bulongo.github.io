@@ -1,9 +1,10 @@
 'use client'
 import { useContext, useState } from 'react'
+import Link from 'next/link'
 import styles from './page.module.css'
-import Button from '../components/Button/Button'
-import Sunmoon from '../components/Sunmoon/Sunmoon'
-import { modeContext } from '../context/context'
+import Button from '@/app/components/Button/Button'
+import Sunmoon from '@/app/components/Sunmoon/Sunmoon'
+import { modeContext } from '@/app/context/context'
 
 const signup = () => {
   const darkModeContext = useContext(modeContext)
@@ -28,7 +29,7 @@ const signup = () => {
       <span className={styles.loader}>oOOo</span>
       <div className={styles.footer}>
         <p onClick={() => skip()}>Skip</p>
-        <p className={styles.modal}>next</p>
+        <Link className={styles.modal} href='/signup1'>next</Link>
         <div className={darkModeState ? styles.darkBtn : styles.btn} onClick={() => nextBtn()}>&#8594;</div>
       </div>
     </div>
