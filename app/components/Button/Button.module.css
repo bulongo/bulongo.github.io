@@ -24,12 +24,12 @@
 
 .light {
   border: solid 1px gray;
-  transform: translateX(.3rem);
+  transform: translateX(.2rem);
 }
 
 .dark {
   border: none;
-  /* background: #101719; */
+  background: #101719;
   transform: translateX(7.3rem);
   color: white;
 }
