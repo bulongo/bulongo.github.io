@@ -36,7 +36,7 @@
   height: 10rem;
   transition: 0.6s ease;
   position: relative;
-  box-shadow: -3px 2px 4px 1px black;
+  box-shadow: -3px 2px 4px 1px #111;
 
 }
 

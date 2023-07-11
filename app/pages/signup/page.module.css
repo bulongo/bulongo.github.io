@@ -28,11 +28,25 @@
 
 .loader {
   display: flex;
-  /* border: solid gray; */
-  width: 50%;
+  width: 25%; 
+  /* border: solid red; */
   margin: 1rem auto;
+}
+
+.loader span {
+  display: flex;
+  border: solid gray 1px;
+  width: .5rem;
+  height: .5rem;
+  margin: 1rem auto;
+  border-radius: 50%;
   justify-content: center;
   align-items: center;
+}
+
+.loader .one {
+  background: black;
+  border: none;
 }
 
 .footer {
@@ -84,12 +98,6 @@
   }
 }
 
-@keyframes liquid {
-  0% {
-
-}
-}
-
 /* should depend on what the person has selected  */
 .darkBtn {
   background: white;
@@ -102,6 +110,7 @@
   height: 2.5rem;
   color: black;
   border-radius: 50%;
+  text-decoration: none;
   font-size: 1.5rem;
   transition: 0.2s ease;
   animation: bounce 1.7s infinite;
@@ -122,4 +131,6 @@
   font-size: 1.5rem;
   transition: 0.2s ease;
   animation: bounce 1.7s infinite;
+  text-decoration: none;
+
 }

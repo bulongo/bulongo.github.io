@@ -1,0 +1,26 @@
+.footer {
+  /* border: solid red; */
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: .6rem 1rem;
+}
+
+.footer button {
+  width: 6rem;
+  height: 2rem;
+  font-size: 1.02rem;
+  border: none;
+}
+
+.back { 
+  background: orangered;
+}
+
+.home {
+  /* background: #1C4A2E; */
+  background: #0A1F0D;
+  color: white;
+}

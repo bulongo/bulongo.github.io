@@ -10,7 +10,12 @@ const Main = () => {
   const darkModeContext = useContext(modeContext)
   const [state,dispatch] = useReducer(darkModeReducer,darkModeState)
   return (
+    <div>
       <Navbar />
+      <div>
+        Hello world, we are happy to welcome you to whatodo
+      </div>
+    </div>
   )
 }
 
